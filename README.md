@@ -1,12 +1,23 @@
+
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie List App (with Offline Support)
 
-Currently, two official plugins are available:
+A modern React + Vite movie listing app that fetches and caches movies with offline support using IndexedDB.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+  -  Fetch movies from a public movie API (e.g., YTS)
+  -   Offline support with IndexedDB caching
+  -  Reverses and updates movie list based on latest API response
+  -  Display movie titles, thumbnails, and IMDB links
+  -  Instant loading experience for returning users
+  -  Responsive and clean UI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    
+## 🛠️ Tech Stack
+
+- React + Vite
+- Dexie.js (IndexedDB wrapper)
+- Axios (API calls)
+- Material UI 
+- Custom Pagination
