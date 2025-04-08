@@ -26,7 +26,7 @@ const ListState = ({ children }) => {
     const PAGE_LIMIT = 10;
 
     const API_HEADERS = {
-        "x-rapidapi-key": "0a505bbfe9msh73291b6addaa707p18a327jsn2e6331468a22",
+        "x-rapidapi-key": "aa39f7e6b8msh4107bbd7af87009p14fd3bjsn37dd02ea21ed",
         "x-rapidapi-host": "movie-database-api1.p.rapidapi.com",
     };
 
